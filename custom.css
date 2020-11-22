@@ -1,0 +1,80 @@
+body {
+    padding: 0;
+    margin: 0;
+    background: white;
+}
+
+/*--- navigation bar ---*/
+.navbar {
+    background: #9A1750;
+}
+
+.nav-link,
+.navbar-brand {
+    color: #fff;
+    cursor: pointer;
+}
+
+.nav-link {
+    margin-right: 1em !important;
+}
+
+.nav-link:hover {
+    color: #E3AFBC;
+}
+
+.navbar-brand:hover {
+    color: #E3AFBC;
+}
+
+.navbar-collapse {
+    justify-content: flex-end;
+}
+
+
+
+
+.page-footer {
+    background-color: #222;
+    color: white;
+    padding: 30px 0 30px;
+    margin: 0 auto;
+}
+
+.footer-copyright {
+    color: white;
+    padding: 40px 0;
+}
+
+@media (max-width: 575.98px) {
+    .description {
+        left: 0;
+        padding: 0 15px;
+        position: absolute;
+        top: 10%;
+        transform: none;
+        text-align: center;
+    }
+}
+
+.col-sm-4 {
+    padding-top: 2em;
+    padding-bottom: 2em;
+
+
+}
+
+h1 {
+    color: #222;
+
+}
+
+.btn btn-info {
+    color: #9A1750;
+    background-color: #9A1750;
+}
+
+i {
+    color: white;
+    padding-top: 0.1em;
+}
